@@ -55,3 +55,51 @@ body {
     padding: 10px 15px;
     border-radius: 4px;
 }
+
+#sec-1 {
+    display: flex;
+    background-color: #F4F6F5;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 30px;
+    gap: 100px;
+}
+
+.title {
+    padding: 77px 0px 40px 119px;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+#dec-w {
+    background-color: white;
+    padding-right: 150px;
+}
+
+#dec-y {
+    background-color: #EBD96B;
+    padding-right: 150px;
+}
+
+#image img {
+    height: 871px;
+    width: 784px;
+}
+
+.content {
+    padding-left: 119px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.button {
+    margin-top: 32px;
+    margin-left: 119px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+}
