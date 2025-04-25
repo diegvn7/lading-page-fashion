@@ -5,6 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {color: inherit;
 }
 
 body {
@@ -15,7 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(0, 0, 255, 0.171);
+    
 }
 
 #logo-sec {
@@ -40,6 +45,7 @@ body {
 
 .tabs {
     font-weight: 500;
+    color: #242323;
 }
 
 .sing {
