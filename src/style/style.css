@@ -13,6 +13,7 @@ a {color: inherit;
 }
 
 body {
+    height: 100vh;
     font-family: 'poppins', Arial, Helvetica, sans-serif;
 }
 
@@ -24,7 +25,8 @@ body {
 }
 
 #logo-sec {
-    padding: 48px 0px 56px 100px;
+    padding: 48px 0px 56px 0px;
+    margin-left: 10%;
     display: flex;
     justify-items: center;
     font-size: 40px;
@@ -40,7 +42,8 @@ body {
     display: flex;
     align-items: center;
     gap: 65px;
-    padding: 48px 100px 56px 0px;
+    padding: 48px 0px 56px 0px;
+    margin-right: 10%;
 }
 
 .tabs {
@@ -58,9 +61,10 @@ body {
 
 #sec-1 {
     display: flex;
+    flex-wrap: wrap;
     background-color: #F4F6F5;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
     border-radius: 30px;
     gap: 100px;
 }
@@ -81,9 +85,16 @@ body {
     padding-right: 150px;
 }
 
+#image {
+    display: flex;
+   
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #image img {
-    height: 871px;
-    width: 784px;
+    background-position: center top;
 }
 
 .content {
